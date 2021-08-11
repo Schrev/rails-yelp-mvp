@@ -1,0 +1,7 @@
+<h1>Restaurants Index</h1>
+<p>Choose a restaurant:</p>
+<ul class="list-group">
+<% @restaurants.each do |restaurant| %>
+<li><strong><%= link_to restaurant.name, restaurant_path(restaurant) %></strong> Address: <%= restaurant.address %><br> Phonenumber: <%= restaurant.phone_number %> Category: <%= restaurant.category %></li>
+<%end %>
+</ul>

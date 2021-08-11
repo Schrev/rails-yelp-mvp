@@ -1,0 +1,38 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.list-group {
+  text-align: center;
+  margin: 0, auto;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0,
+  auto;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.container {
+  width: 70vw;
+}
+
+.small_container {
+  width: 50vw;
+  text-align: center;
+  justify-content: center;
+}
